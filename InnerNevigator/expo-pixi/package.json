@@ -1,0 +1,132 @@
+{
+  "_args": [
+    [
+      "expo-pixi@1.2.0",
+      "D:\\cource\\Projects\\React-native\\Drawing\\KidsApp"
+    ]
+  ],
+  "_from": "expo-pixi@1.2.0",
+  "_id": "expo-pixi@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-xt1VoF/Jl9P+uPaH5wdCc4OLgK+ZdXlxZIMqEaPn8717bFyH4I79RNVv7cH7GAlMt/U951FlQqFqgKELCOVNOA==",
+  "_location": "/expo-pixi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "expo-pixi@1.2.0",
+    "name": "expo-pixi",
+    "escapedName": "expo-pixi",
+    "rawSpec": "1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "1.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/expo-pixi/-/expo-pixi-1.2.0.tgz",
+  "_spec": "1.2.0",
+  "_where": "D:\\cource\\Projects\\React-native\\Drawing\\KidsApp",
+  "author": {
+    "name": "Evan Bacon",
+    "email": "bacon@expo.io",
+    "url": "https://expo.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/expo/expo-pixi/issues"
+  },
+  "dependencies": {
+    "@expo/browser-polyfill": "^0.1.0",
+    "expo-asset-utils": "^1.1.0",
+    "fbemitter": "2.1.1",
+    "path": "^0.12.7",
+    "pixi-filters": "*",
+    "pixi-spine": "^1.5.11",
+    "pixi.js": "^4.7.0",
+    "url": "^0.11.0"
+  },
+  "description": "Tools for using pixi in Expo",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^22.4.1",
+    "babel-preset-expo": "^5.1.1",
+    "babel-preset-react-native": "^2.1.0",
+    "codecov": "^2.2.0",
+    "conventional-changelog-cli": "^2.0.5",
+    "eslint": "^5.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-universe": "^1.0.6",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.14.3",
+    "jest": "^23.4.1",
+    "jest-expo": "^28.0.0",
+    "lint-staged": "^4.2.1",
+    "prettier": "^1.12.1",
+    "prettier-eslint": "^8.8.1",
+    "react": "^16.2.0",
+    "react-native": "^0.52.0",
+    "react-native-vector-icons": "^4.2.0",
+    "react-test-renderer": "^16.0.0",
+    "release-it": "^7.6.1"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "eslintConfig": {
+    "extends": "expo"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/expo/expo-pixi#readme",
+  "keywords": [
+    "react",
+    "native",
+    "expo",
+    "exponent",
+    "game",
+    "gl",
+    "graphics",
+    "opengl",
+    "2d",
+    "pixi",
+    "pixi.js",
+    "sprite"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "main": "lib/index.js",
+  "name": "expo-pixi",
+  "peerDependencies": {
+    "expo-gl": "~4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/expo-pixi.git"
+  },
+  "scripts": {
+    "lint": "eslint lib/",
+    "lint:examples": "eslint examples/",
+    "lint:fix": "eslint lib/ --fix",
+    "sync": "npm run sync:basic; npm run sync:comprehensive; npm run sync:filter; npm run sync:signature; npm run sync:sketch",
+    "sync:basic": "rsync -rv lib examples/basic/node_modules/expo-pixi/; rsync -rv package.json examples/basic/node_modules/expo-pixi/",
+    "sync:comprehensive": "rsync -rv lib examples/comprehensive/node_modules/expo-pixi/; rsync -rv package.json examples/comprehensive/node_modules/expo-pixi/",
+    "sync:filter": "rsync -rv lib examples/filter-image/node_modules/expo-pixi/; rsync -rv package.json examples/filter-image/node_modules/expo-pixi/",
+    "sync:signature": "rsync -rv lib examples/signature/node_modules/expo-pixi/; rsync -rv package.json examples/signature/node_modules/expo-pixi/",
+    "sync:sketch": "rsync -rv lib examples/sketch/node_modules/expo-pixi/; rsync -rv package.json examples/sketch/node_modules/expo-pixi/"
+  },
+  "sideEffects": true,
+  "version": "1.2.0"
+}
